@@ -1,0 +1,12 @@
+windows:
+  hosts:
+    delivery.husnomics.com
+
+Infrastructure:
+  hosts:
+
+Database:
+  hosts:
+
+kubernetes:
+  hosts:

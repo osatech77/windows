@@ -1,0 +1,7 @@
+---
+- name: Ping host
+  hosts: windows
+  gather_facts: true
+  tasks:
+  - debug:
+     var: ansible_facts
