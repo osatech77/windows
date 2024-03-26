@@ -2,6 +2,9 @@
 - name: Ping host
   hosts: windows
   gather_facts: true
+
+  environment:
+    KRB5CCNAME: DIR:/tmp/
   tasks:
   - debug:
      var: ansible_facts
