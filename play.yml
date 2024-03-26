@@ -4,7 +4,7 @@
   gather_facts: true
 
   environment:
-    KRB5CCNAME: DIR:/tmp/
+    KRB5CCNAME: DIR:/etc/
   tasks:
   - debug:
      var: ansible_facts
